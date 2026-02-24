@@ -1,0 +1,5 @@
+if ScriptType == "AutoBounty" then
+loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/2170335c9b891a07b81a0c0957755221e31942363df45b846637009f0dd37a9b/download"))()
+else
+print("please enter ScriptType")
+end
