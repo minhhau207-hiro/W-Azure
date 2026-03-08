@@ -1,8 +1,0 @@
-repeat task.wait() until game:IsLoaded()
-if ScriptType == "AutoBounty" then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/minhhau207-hiro/W-Azure/refs/heads/main/autobounty.lua"))()
-elseif ScriptType == "ShowItem" then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/minhhau207-hiro/W-Azure/refs/heads/main/viewitem.lua"))()
-else
-print("please enter ScriptType")
-end
