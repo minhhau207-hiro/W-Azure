@@ -1,7 +1,7 @@
-if getgenv().Tvk then 
+if getgenv().vmh then 
 		if game.CoreGui:FindFirstChild("Silver Hub GUI") then for i, v in ipairs(game.CoreGui:GetChildren()) do if v.Name == "Silver Hub GUI" then v:Destroy() end end end
 	end
-	getgenv().Tvk = true
+	getgenv().vmh = true
 	
 	local IndexUIColor = {
 		["Border Color"] = Color3.fromRGB(255, 1, 132),
