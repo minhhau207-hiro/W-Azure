@@ -3,8 +3,6 @@ if ScriptType == "TrueBounty" then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/minhhau207-hiro/W-Azure/refs/heads/main/autobounty%20v3.lua"))()
 elseif ScriptType == "TrueShowItem" then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/minhhau207-hiro/W-Azure/refs/heads/main/showitemV3.lua"))()
-elsif ScriptType == "SailorP" then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/minhhau207-hiro/W-Azure/refs/heads/main/SailorP"))()
 else
 print("please enter ScriptType")
 end
