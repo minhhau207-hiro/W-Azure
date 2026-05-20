@@ -1,6 +1,6 @@
 repeat task.wait() until game:IsLoaded()
 if ScriptType == "TrueBounty" then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/minhhau207-hiro/W-Azure/refs/heads/main/autobounty%20v3.lua"))()
+loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/66602213efae88469a7bb0ede275c8d73e74bec468cda6fcbbd97b2c7b179841/download"))()
 elseif ScriptType == "TrueShowItem" then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/minhhau207-hiro/W-Azure/refs/heads/main/showitemV3.lua"))()
 else
